@@ -1,43 +1,23 @@
-<html>
-  <head>
-    <title>Typewriter effect</title>
-  </head>
-  <style>
-    body{
-      background: navajowhite;
-      background-size: cover;
-      font-family: 'Trebuchet MS', sans-serif; 
-    }
-    .container{
-      display: inline-block;
-    }
-    .typed-out{
-      overflow: hidden;
-      border-right: .15em solid orange;
-      white-space: nowrap;
-      font-size: 1.6rem;
-      width: 0;
-      animation: 
-        typing 1s steps(20, end) forwards,
-        blink .8s infinite;
-    }
-    @keyframes typing {
-      from { width: 0 }
-      to { width: 100% }
-    }
-    @keyframes blink {
-      from { border-color: transparent }
-      to { border-color: orange; }
-    }
-  </style>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ananya Gupta</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
 <body>
-<h1>Hi!<br></br><div class="typed-out">I'm Ananya, I'm a</div></div><br></br>
-<div class="c1"><div class="typed-out">Web Developer</div></div>
-</br>
-<div class="c2"><div class="type2">Web Designer</div></div>
-</br>
-<div class="c3"><div class="type3">UI/UX Designer</div></div>
-<br></br></h1>
+<!-- partial:index.partial.html -->
+<div class="input-text">
+   
+   <p class="message">I'm Ananya Gupta&nbsp;<span></span>
+   </p>
+   
+</div>
+<!-- partial -->
+  
 </body>
 </html>
+
 
