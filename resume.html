@@ -1,262 +1,81 @@
-<!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Resume | Ananya Gupta</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<meta name="description" content="Resume of Ananya Gupta, Data Scientist / Analyst / Engineer and NUS Data Science & Analytics graduate." />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<style>
-			.resume { max-width: 60em; margin: 0 auto; }
-			.resume .summary { font-size: 1.1em; text-align: center; margin-bottom: 2.5em; }
-			.resume .actions { justify-content: center; }
-			.resume section { margin-bottom: 3em; }
-			.resume section > h3 {
-				border-bottom: solid 2px #e44c65;
-				padding-bottom: 0.4em;
-				margin-bottom: 1.25em;
-				letter-spacing: 0.15em;
-				text-transform: uppercase;
-			}
-			.resume .entry { margin-bottom: 2em; }
-			.resume .entry-head {
-				display: flex;
-				flex-wrap: wrap;
-				justify-content: space-between;
-				align-items: baseline;
-				gap: 0 1em;
-			}
-			.resume .entry-head h4 { margin: 0; }
-			.resume .entry-head .date { color: rgba(255, 255, 255, 0.6); white-space: nowrap; }
-			.resume .entry-sub { color: #e44c65; margin: 0.25em 0 0.75em 0; }
-			.resume .entry ul { margin-bottom: 0; }
-			.resume .entry li { margin-bottom: 0.4em; }
-			.resume .tags { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.5em; margin: 0.5em 0 0 0; }
-			.resume .tags li {
-				border: solid 1px rgba(255, 255, 255, 0.3);
-				border-radius: 4px;
-				padding: 0 0.75em;
-				font-size: 0.85em;
-				margin: 0;
-			}
-			.resume .stat h4 { font-size: 2em; color: #e44c65; margin-bottom: 0.25em; }
-			.resume .skills .box h4 { margin-bottom: 0.25em; }
-			@media print {
-				#header, #footer, .resume .actions { display: none !important; }
-				body, .wrapper { background: #fff !important; color: #000 !important; }
-				.resume h2, .resume h3, .resume h4, .resume strong, .resume .entry-sub, .resume .date { color: #000 !important; }
-				.resume .tags li, .resume .box { border-color: #999 !important; }
-				.resume .entry { page-break-inside: avoid; }
-			}
-		</style>
-	</head>
-	<body class="is-preload">
-		<div id="page-wrapper">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Résumé | Ananya Gupta</title>
+<meta name="description" content="Résumé of Ananya Gupta, Data Scientist and AI/ML engineer based in Singapore." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" />
+<link rel="stylesheet" href="assets/css/site.css" />
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+<style>
+	.resume-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 1.5rem; padding-block: 3.5rem 1.5rem; }
+	.resume-head h1 { font-size: var(--step-3); }
+	.resume-head p { color: var(--ink-2); margin-top: 0.4rem; }
+	.pdf { width: 100%; height: min(85vh, 70rem); border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); display: block; }
+	.resume-body { padding-block: 0 4rem; }
+</style>
+</head>
+<body>
 
-			<!-- Header -->
-			<header id="header">
-				<h1 id="logo"><a href="index.html">Ananya Gupta</a></h1>
-				<nav id="nav">
-					<ul>
-						<li><a href="index.html">About</a></li>
-						<li><a href="experience.html">Experience</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="resume.html">Resume</a></li>
-						<li><a href="https://linktr.ee/ananya8576" class="button primary">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+	<symbol id="i-download" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></symbol>
+	<symbol id="i-moon" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5Z"/></symbol>
+	<symbol id="i-sun" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></g></symbol>
+</svg>
 
-			<!-- Main -->
-			<div id="main" class="wrapper style1">
-				<div class="container resume">
-					<header class="major">
-						<h2>Resume</h2>
-						<p>Data Scientist &middot; Data Analyst &middot; Data Engineer</p>
-					</header>
-
-					<p class="summary">
-						Data Science &amp; Analytics graduate from the National University of Singapore with hands-on experience
-						across banking, fintech and SaaS analytics. I build <strong>LLM and machine learning solutions</strong>,
-						<strong>automated ETL pipelines</strong> and <strong>decision-ready Tableau dashboards</strong>, turning messy
-						data into measurable business impact.
-					</p>
-					<ul class="actions">
-						<li><a href="assets/files/Ananya_Gupta_Resume2024.pdf" target="_blank" class="button primary icon solid fa-download">Download PDF</a></li>
-						<li><a href="mailto:ananyagupta99200@gmail.com" class="button icon solid fa-envelope">Email Me</a></li>
-						<li><a href="https://www.linkedin.com/in/ananyagupta8576/" class="button icon brands fa-linkedin-in">LinkedIn</a></li>
-					</ul>
-
-					<!-- Highlights -->
-					<section>
-						<h3>Highlights</h3>
-						<div class="row gtr-uniform">
-							<div class="col-4 col-12-small"><div class="box stat"><h4>200%</h4>Data pipeline efficiency gain from ETL automation at OCBC</div></div>
-							<div class="col-4 col-12-small"><div class="box stat"><h4>91%</h4>Client renewal rate supported through data quality work at Nugit</div></div>
-							<div class="col-4 col-12-small"><div class="box stat"><h4>0.964</h4>Accuracy of multimodal model detecting online dating scam profiles</div></div>
-						</div>
-					</section>
-
-					<!-- Experience -->
-					<section>
-						<h3>Experience</h3>
-
-						<div class="entry">
-							<div class="entry-head">
-								<h4>Data / ML Intern</h4>
-								<span class="date">Jan 2024 &ndash; Mar 2024</span>
-							</div>
-							<p class="entry-sub">Warden</p>
-							<ul>
-								<li>Built an LLM-powered pipeline in TypeScript to extract and summarise key financial information (tax details, stock holdings) from long documents, enriched with market data from the AlphaVantage and Xignite APIs to generate recommendations.</li>
-								<li>Developed the user-facing interface with Node.js, Yarn and Docker so extracted information synced seamlessly for end users.</li>
-							</ul>
-						</div>
-
-						<div class="entry">
-							<div class="entry-head">
-								<h4>Data Science Intern</h4>
-								<span class="date">May 2023 &ndash; Dec 2023</span>
-							</div>
-							<p class="entry-sub">Oversea-Chinese Banking Corporation (OCBC)</p>
-							<ul>
-								<li>Designed statistical forecasting and time-series correlation models on historical data to track performance against targets, accelerating performance reviews and decision-making.</li>
-								<li>Automated ETL workflows with Python, SQL, VBA and SAS, <strong>improving pipeline efficiency by 200%</strong> and raising the accuracy of global metrics in the enterprise data warehouse.</li>
-								<li>Defined database schemas and data dictionaries to standardise reporting structures and key metrics across the data mart.</li>
-								<li>Delivered end-to-end Tableau dashboards, from data ingestion to real-time visualisations, for the wealth and digital consumer segments.</li>
-								<li>Recognised by department heads for product ideation and prototyping at the FRANKPreneurship Design Thinking Hackathon 2023.</li>
-							</ul>
-						</div>
-
-						<div class="entry">
-							<div class="entry-head">
-								<h4>Data Analysis &amp; Operations Intern</h4>
-								<span class="date">Dec 2021 &ndash; Jul 2022</span>
-							</div>
-							<p class="entry-sub">Nugit</p>
-							<ul>
-								<li>Turned raw CSV files and API feeds into automated, interactive reports for enterprise clients including J&amp;J Vision and Kellogg&rsquo;s using Tableau and R.</li>
-								<li>Contributed to a <strong>91% client renewal rate</strong> through daily data cleaning and back-end/front-end accuracy checks on the NLP- and AI-based ingestion platform.</li>
-								<li>Partnered with Product and Engineering to troubleshoot bugs and ship custom metrics using SQL and Java; resolved 100+ user data issues via Intercom and email.</li>
-							</ul>
-						</div>
-					</section>
-
-					<!-- Education -->
-					<section>
-						<h3>Education</h3>
-						<div class="entry">
-							<div class="entry-head">
-								<h4>National University of Singapore (NUS)</h4>
-								<span class="date">Aug 2020 &ndash; May 2024</span>
-							</div>
-							<p class="entry-sub">Bachelor of Science (Honours), Data Science and Analytics &middot; Second Major in Innovation and Design</p>
-							<ul>
-								<li><strong>Awards:</strong> Dean&rsquo;s List (AY2023/24 Semester 1), Academic Bursary Award 2021</li>
-								<li><strong>Leadership:</strong> Vice President, NUS Statistics &amp; Data Science Society (2021&ndash;2024), leading the Annual Data Analytics Competition and industry events with Grab, AI Singapore and Shopee for 800+ students; Marketing Director, NUS GRC Group</li>
-								<li><strong>Coursework:</strong> Statistical Modelling, Machine Learning, Artificial Intelligence, Natural Language Processing, Big Data Systems, Data Structures &amp; Algorithms, Data Visualisation, Data Modelling &amp; Computation</li>
-							</ul>
-						</div>
-					</section>
-
-					<!-- Projects -->
-					<section>
-						<h3>Selected Projects</h3>
-
-						<div class="entry">
-							<div class="entry-head">
-								<h4><a href="https://github.com/Ananya8576/DSA4263_Dating_Fraud">Verifying Authenticity: Detecting Online Dating Scams</a></h4>
-								<span class="date">Feb 2024 &ndash; Apr 2024</span>
-							</div>
-							<p>Built a model combining image and text data to flag scam dating profiles, <strong>reaching 0.964 accuracy</strong> to reduce financial and emotional risk to users.</p>
-							<ul class="tags"><li>Python</li><li>Computer Vision</li><li>ML</li></ul>
-						</div>
-
-						<div class="entry">
-							<div class="entry-head">
-								<h4><a href="https://github.com/Ananya8576/CS4248_NLI">Enhancing NLI with AI-Generated Explanations</a></h4>
-								<span class="date">Feb 2024 &ndash; Apr 2024</span>
-							</div>
-							<p>Trained GPT-2 variants to compare machine-generated and human-annotated explanations for natural language inference, evaluated on accuracy, precision, F1 and BLEU.</p>
-							<ul class="tags"><li>Python</li><li>NLP</li><li>LLM</li></ul>
-						</div>
-
-						<div class="entry">
-							<div class="entry-head">
-								<h4><a href="https://github.com/Ananya8576/dsa3101-2220-09-construc">Transaction Simulation Model for Construcshare</a></h4>
-								<span class="date">Feb 2023 &ndash; Apr 2023</span>
-							</div>
-							<p>Built an agent-based simulation from scratch to model e-commerce transactions and test how feature changes affect site engagement and strategy.</p>
-							<ul class="tags"><li>Python</li><li>APIs</li><li>Git</li><li>Docker</li></ul>
-						</div>
-
-						<div class="entry">
-							<div class="entry-head">
-								<h4><a href="https://github.com/EIM319">Post-Discharge Information Management</a></h4>
-								<span class="date">Jan 2022 &ndash; Dec 2022</span>
-							</div>
-							<p>Built a web app and content tool that pulls hospital data and organises it into clear, accessible information for discharged patients.</p>
-							<ul class="tags"><li>React.js</li><li>Firebase</li><li>Java</li><li>HTML/CSS</li></ul>
-						</div>
-
-						<p><a href="projects.html" class="button small">See all projects</a></p>
-					</section>
-
-					<!-- Skills -->
-					<section class="skills">
-						<h3>Skills</h3>
-						<div class="row gtr-uniform">
-							<div class="col-6 col-12-small"><div class="box">
-								<h4>Languages</h4>
-								<ul class="tags"><li>Python</li><li>R</li><li>SQL</li><li>SAS</li><li>Java</li><li>JavaScript</li><li>TypeScript</li><li>Scala</li></ul>
-							</div></div>
-							<div class="col-6 col-12-small"><div class="box">
-								<h4>ML &amp; AI</h4>
-								<ul class="tags"><li>LLMs</li><li>NLP</li><li>Computer Vision</li><li>TensorFlow</li><li>Keras</li><li>Hugging Face</li><li>NLTK</li></ul>
-							</div></div>
-							<div class="col-6 col-12-small"><div class="box">
-								<h4>Data Engineering &amp; Platforms</h4>
-								<ul class="tags"><li>Apache Spark</li><li>Hadoop</li><li>AWS</li><li>PostgreSQL</li><li>NoSQL</li><li>Firebase</li><li>Fivetran</li><li>Docker</li><li>Git</li></ul>
-							</div></div>
-							<div class="col-6 col-12-small"><div class="box">
-								<h4>Analytics &amp; Visualisation</h4>
-								<ul class="tags"><li>Tableau</li><li>Sisense</li><li>Pandas</li><li>NumPy</li><li>Matplotlib</li><li>Seaborn</li><li>Jupyter</li><li>MATLAB</li></ul>
-							</div></div>
-						</div>
-						<p><strong>Spoken languages:</strong> English (Fluent), Hindi (Fluent), Mandarin (Intermediate)</p>
-					</section>
-				</div>
-			</div>
-
-			<!-- Footer -->
-			<footer id="footer">
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/ananyagupta8576/" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://github.com/Ananya8576" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="mailto:ananyagupta99200@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-				</ul>
-				<ul class="copyright">
-					<li>&copy; Ananya Gupta. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</footer>
-
+<header class="site-header">
+	<div class="wrap">
+		<a class="brand" href="index.html">Ananya Gupta <span class="mono">data science · ML · AI</span></a>
+		<nav class="site-nav" aria-label="Sections">
+			<a href="index.html#fit">Role fit</a>
+			<a href="index.html#experience">Experience</a>
+			<a href="index.html#projects">Projects</a>
+			<a href="index.html#skills">Skills</a>
+			<a href="index.html#contact">Contact</a>
+		</nav>
+		<div class="header-actions">
+			<button class="icon-btn" type="button" id="theme-toggle" aria-label="Switch colour theme"><svg><use href="#i-moon" /></svg></button>
 		</div>
+	</div>
+</header>
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrolly.min.js"></script>
-		<script src="assets/js/jquery.dropotron.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+<main>
+	<div class="wrap resume-head">
+		<div>
+			<h1>Résumé</h1>
+			<p>Data Scientist · ML / AI Engineer · Data Engineer</p>
+		</div>
+		<a class="btn primary" href="assets/files/Ananya_Gupta_Resume2024.pdf" target="_blank" rel="noopener"><svg><use href="#i-download" /></svg>Download PDF</a>
+	</div>
+	<div class="wrap resume-body">
+		<iframe class="pdf" src="assets/files/Ananya_Gupta_Resume2024.pdf" title="Ananya Gupta résumé (PDF)"></iframe>
+	</div>
+</main>
 
-	</body>
+<footer class="site-footer">
+	<div class="wrap">
+		<span>© Ananya Gupta · Singapore</span>
+		<span><a href="https://github.com/Ananya8576">github.com/Ananya8576</a> · <a href="https://www.linkedin.com/in/ananyagupta8576/">linkedin.com/in/ananyagupta8576</a></span>
+	</div>
+</footer>
+
+<script>
+(function () {
+	var root = document.documentElement, btn = document.getElementById('theme-toggle');
+	var q = window.matchMedia('(prefers-color-scheme: dark)');
+	function dark() { var t = root.getAttribute('data-theme'); return t ? t === 'dark' : q.matches; }
+	function sync() { btn.innerHTML = '<svg><use href="#i-' + (dark() ? 'sun' : 'moon') + '" /></svg>'; }
+	btn.addEventListener('click', function () {
+		var next = dark() ? 'light' : 'dark';
+		root.setAttribute('data-theme', next);
+		try { localStorage.setItem('theme', next); } catch (e) {}
+		sync();
+	});
+	sync();
+})();
+</script>
+</body>
 </html>
