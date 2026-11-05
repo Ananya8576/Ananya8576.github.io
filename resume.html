@@ -3,55 +3,39 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-<title>Résumé | Ananya Gupta</title>
-<meta name="description" content="Résumé of Ananya Gupta, IT Engineer and AI Lead at Micron Technology, Singapore." />
-<meta name="theme-color" content="#141414" />
+<title>Resume | Ananya Gupta</title>
+<meta name="description" content="Resume of Ananya Gupta, IT Engineer and AI Lead for Micron IT, Singapore." />
+<meta name="theme-color" content="#1c1d26" />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:wght@400;500;600;700;800&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Instrument+Sans:wght@400;500;600&family=Schibsted+Grotesk:wght@600;700;800&display=swap" />
 <link rel="stylesheet" href="assets/css/site.css" />
 <style>
-	.resume { padding-top: 6.5rem; padding-bottom: 4rem; }
-	.resume-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 1rem 2rem; margin-bottom: 1.5rem; }
-	.resume-head h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2.6rem, 6vw, 4rem); line-height: 0.9; }
-	.resume-head p { color: var(--ink-2); margin-top: 0.4rem; }
-	.pdf { width: 100%; height: min(85vh, 70rem); border: 0; border-radius: 6px; background: var(--bg-2); display: block; }
+	.resume .wrap { padding-block: 8rem 5rem; }
+	.resume-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 1.25rem 2rem; margin-bottom: 2rem; }
+	.resume-head h1 { font-size: var(--step-4); }
+	.resume-head .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+	.pdf { width: 100%; height: min(85vh, 70rem); border: 1px solid var(--line); border-radius: 20px; background: var(--card); display: block; box-shadow: var(--shadow); }
 </style>
 </head>
 <body>
-
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-	<symbol id="i-download" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></symbol>
-	<symbol id="i-left" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" d="m15 5-7 7 7 7"/></symbol>
+	<symbol id="i-download" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12m0 0-5-5m5 5 5-5M4 20h16"/></symbol>
 </svg>
-
-<header class="nav solid pad-x">
-	<a class="logo" href="index.html" aria-label="Ananya Gupta, home">ANANYA</a>
-	<ul class="nav-links">
-		<li><a href="index.html#row-micron">Now Streaming</a></li>
-		<li><a href="index.html#row-career">Career</a></li>
-		<li><a href="index.html#row-ai">AI &amp; ML</a></li>
-		<li><a href="index.html#row-skills">Skills</a></li>
-		<li><a href="index.html#contact">Contact</a></li>
-	</ul>
-</header>
-
-<main class="resume pad-x">
-	<div class="resume-head">
-		<div>
-			<h1>Résumé</h1>
-			<p>IT Engineer · AI Lead at Micron Technology · Singapore</p>
+<main class="resume">
+	<div class="wrap">
+		<div class="resume-head">
+			<div>
+				<p class="eyebrow">Resume</p>
+				<h1>Ananya Gupta</h1>
+			</div>
+			<div class="actions">
+				<a class="pill solid" href="assets/files/Ananya_Gupta_Resume2026.pdf" target="_blank" rel="noopener"><svg><use href="#i-download" /></svg>Download PDF</a>
+				<a class="pill" href="index.html">Back to portfolio</a>
+			</div>
 		</div>
-		<div class="bb-actions">
-			<a class="btn play small" href="assets/files/Ananya_Gupta_Resume2026.pdf" target="_blank" rel="noopener"><svg><use href="#i-download" /></svg>Download PDF</a>
-			<a class="btn info small" href="index.html"><svg><use href="#i-left" /></svg>Back to profile</a>
-		</div>
+		<iframe class="pdf" src="assets/files/Ananya_Gupta_Resume2026.pdf" title="Ananya Gupta resume (PDF)"></iframe>
 	</div>
-	<iframe class="pdf" src="assets/files/Ananya_Gupta_Resume2026.pdf" title="Ananya Gupta résumé (PDF)"></iframe>
 </main>
-
-<footer class="footer pad-x">
-	<p>© Ananya Gupta · Singapore · <a href="mailto:ananyagupta99200@gmail.com">ananyagupta99200@gmail.com</a></p>
-</footer>
 </body>
 </html>
