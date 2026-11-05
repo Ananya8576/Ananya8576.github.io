@@ -136,6 +136,18 @@
 	});
 	applyFilter('all');
 
+	// "See projects" on each skill card filters the work grid and scrolls to it
+	$all('[data-see]').forEach(function (btn) {
+		var tag = btn.getAttribute('data-see');
+		var n = projects.filter(function (p) { return (' ' + p.getAttribute('data-tags') + ' ').indexOf(' ' + tag + ' ') !== -1; }).length;
+		btn.textContent = 'See ' + n + (n === 1 ? ' project' : ' projects');
+		btn.addEventListener('click', function () {
+			var target = filterButtons.filter(function (b) { return b.getAttribute('data-filter') === tag; })[0];
+			if (target) target.click();
+			$('#work').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' });
+		});
+	});
+
 	// Counters (final values are already in the HTML)
 	if (!reduceMotion && 'IntersectionObserver' in window) {
 		var countObserver = new IntersectionObserver(function (entries) {
