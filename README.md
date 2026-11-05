@@ -1,6 +1,7 @@
 # Ananya8576.github.io
 Credits:
   Design:
+    Layout inspiration from: https://corp.jerrinelim.com/#about
     HTML5 UP
 	Icons:
 		Font Awesome (fontawesome.io)
